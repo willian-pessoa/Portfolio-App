@@ -19,7 +19,7 @@ export default function Works() {
             <div className="slider" style={{transform:`translateX(-${currentSlide * 100}vw)`}}>
                 {dataWorks.map((item) => (
 
-                <div className="container">
+                <div key={item.id} className="container">
                     <div className="item">
                         <div className="left">
                             <div className="leftContainer">
@@ -28,7 +28,7 @@ export default function Works() {
                                 </div>
                                 <h2>{item.title}</h2>
                                 <p>{item.desc}</p>
-                                <a href={item.url} target="_blank"><span>Project</span></a>
+                                <a href={item.url} rel={"external"} target="_blank"><span>Project</span></a>
                             </div>
                         </div>
                         <div className="right">

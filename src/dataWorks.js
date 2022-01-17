@@ -18,4 +18,12 @@ export const dataWorks = [
       "assets/portfolio/js.png",
       url: "https://github.com/willian-pessoa/My-codes-in-CS-learning-journey/tree/main/Core%20CS/JavaScript%20Exercises"
     },
-  ];
+    {
+      id: 3,
+      icon: "./assets/letterpair.png",
+      title: "BLD Trainer",
+      desc: "This project it's to solve a personal problem, my short memory. The app allow practice the speed memorization in the 3BLD and MBLD solves.",
+      img: "assets/portfolio/bldtrainer.png",
+      url: "https://willian-pessoa.github.io/bld-trainer/",
+    },
+  ]

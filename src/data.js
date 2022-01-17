@@ -26,7 +26,14 @@ export const featuredPortfolio = [
     {
       id: 5,
       title: "OSSU codes",
-      img: "https://camo.githubusercontent.com/571d23edad9da0a656fdf95f6483ac63585ea09542b7620749880627b4b2161e/68747470733a2f2f692e696d6775722e636f6d2f6b5959435874432e706e67"
+      img: "https://camo.githubusercontent.com/571d23edad9da0a656fdf95f6483ac63585ea09542b7620749880627b4b2161e/68747470733a2f2f692e696d6775722e636f6d2f6b5959435874432e706e67",
+      url: "https://github.com/willian-pessoa/My-codes-in-CS-learning-journey"
+    },
+    {
+      id: 6,
+      title: "BLD Trainer",
+      img: "assets/portfolio/bldtrainer.png",
+      url: "https://willian-pessoa.github.io/bld-trainer/",
     },
   ];
 
@@ -61,11 +68,11 @@ export const featuredPortfolio = [
       img: "assets/portfolio/drum.png",
       url: "https://willian-pessoa.github.io/drum-machine/"
     },
-    {
-        id: 6,
-        title: "Markdown Previewer",
-        img: "assets/portfolio/markdown.png",
-        url: "https://willian-pessoa.github.io/markdown-previewer/"
+      {
+        id: 7,
+        title: "BLD Trainer",
+        img: "assets/portfolio/bldtrainer.png",
+        url: "https://willian-pessoa.github.io/bld-trainer/",
       },
   ];
 
