@@ -4,6 +4,7 @@ import {useState, useEffect} from "react";
 import {
     featuredPortfolio,
     webPortfolio,
+    nextPortfolio,
     jsPortfolio,
     dataPortfolio,
     backendPortfolio
@@ -19,8 +20,12 @@ export default function Portfolio() {
             title: "Featured"
         },
         {
-            id: "web app",
-            title: "Web App"
+            id: "react js",
+            title: "React Js"
+        },
+        {
+            id: "next js",
+            title: "Next Js"
         },
         {
             id: "java alg",
@@ -42,8 +47,11 @@ export default function Portfolio() {
             case "featured":
                 setData(featuredPortfolio);
                 break;
-            case "web app":
+            case "react js":
                 setData(webPortfolio);
+                break;
+            case "next js":
+                setData(nextPortfolio);
                 break;
             case "java alg":
                 setData(jsPortfolio);
@@ -78,7 +86,7 @@ export default function Portfolio() {
                 {data.map((item)=>(
                 <div key={item.id} className="item">
                     <img src={item.img} alt={item.title}/>
-                    <h3><a href={item.url} target="_blank">{item.title}</a></h3>
+                    <h3><a href={item.url} rel="" target="_blank">{item.title}</a></h3>
                 </div>
                 ))}
             </div>

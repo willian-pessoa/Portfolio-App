@@ -1,12 +1,12 @@
 export const dataWorks = [
     {
       id: "1",
-      icon: "./assets/letterpair.png",
-      title: "Letter Pair Memory Trainer",
+      icon: "./assets/pokeball.png",
+      title: "PokeNext",
       desc:
-        "This project it's to solve a personal problem, my short memory. The app allow practice the speed memorization in the 3BLD and MBLD solves.",
-      img: "assets/portfolio/letterpair2.png",
-      url: "https://willian-pessoa.github.io/letter-pairs-memo/"
+        "This Project made with Next Js to practice the use of API and route facilities powered by the framework show all the Pokemons",
+      img: "assets/portfolio/pokenext.png",
+      url: "https://pokenext-xi.vercel.app/"
     },
     {
       id: "2",

@@ -1,10 +1,10 @@
 export const featuredPortfolio = [
-    {
-      id: 1,
-      title: "Letter Pair Memory Trainer",
-      img: "assets/portfolio/letterpair.png",
-      url: "https://willian-pessoa.github.io/letter-pairs-memo/"
-    },
+  {
+    id: 1,
+    title: "PokeNext",
+    img: "assets/portfolio/pokenext.png",
+    url: "https://pokenext-xi.vercel.app/"
+  },
     {
       id: 2,
       title: "Heat Map",
@@ -75,6 +75,21 @@ export const featuredPortfolio = [
         url: "https://willian-pessoa.github.io/bld-trainer/",
       },
   ];
+
+  export const nextPortfolio = [
+    {
+      id: 1,
+      title: "PokeNext",
+      img: "assets/portfolio/pokenext.png",
+      url: "https://pokenext-xi.vercel.app/"
+    },
+    {
+      id: 2,
+      title: "Real Estate",
+      img: "assets/portfolio/realestate.png",
+      url: "https://real-estate-willian-pessoa.vercel.app/"
+    }
+  ]
 
   export const jsPortfolio = [
     {
